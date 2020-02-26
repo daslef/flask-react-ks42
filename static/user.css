@@ -1,0 +1,118 @@
+/* * {
+    border: 1px solid;
+} */
+
+script {
+    display: none;
+}
+
+
+div.card {
+    width: 240px;
+    position: relative;
+    margin-bottom: 20px; 
+    border: 1px solid #666666;
+    box-shadow: 0 2px 2px 0 #333333;
+}
+
+p.card-heading {
+    width: 100%;
+    margin: 0;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+}
+
+p.card-content {
+    width: 94%;
+    margin: 0 auto;
+}
+
+p.card-start-date, p.card-end-date {
+    width: 100%;
+    text-align: left;
+    padding-left: 10px;
+    margin: 0;
+}
+
+div.card-buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+div.card-img {
+    height: 140px;
+    background: url("https://image.freepik.com/free-photo/man-jumping-impossible-possible-cliff-sunset-background-business-concept-idea_1323-266.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    margin: 20px auto;
+    /* border: 1px solid; */
+}
+
+.wrapper div.card {
+    margin: 10px;
+}
+
+
+form {
+    display: none;
+    position: fixed;
+    top: 35vh;
+    left: 35vw;
+}
+
+a#a_logout {
+    display: block;
+    width: 80px;
+    margin: 10px auto;
+    cursor: pointer;
+    padding: 2px;
+    background-color: rgba(3, 65, 223, 0.255);
+}
+
+a#a_open_modal {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  cursor: pointer;
+}
+
+a#a_open_modal:hover {
+    transform: scale(1.1);
+    box-shadow: 0 2px 2px 0 black;
+}
+
+
+a#a_close_modal {
+    position: absolute;
+    top: 2px;
+    right: 5px;
+    cursor: pointer;
+}
+
+a#a_open_modal svg {
+    fill: white;
+    background: rgb(41, 160, 41);
+}
+
+.completed {
+    position: absolute;
+    top: 20%;
+    left: 30%;
+}
+
+.completed svg {
+    fill: white;
+    background: rgb(41, 160, 41);
+    border: 300px;
+    border-radius: 20%;
+    
+}

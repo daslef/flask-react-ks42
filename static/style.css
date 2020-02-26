@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Caveat:400,700&display=swap&subset=cyrillic');
+
+* {
+    /* border: 1px solid; */
+    display: block;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Caveat', cursive;
+    color:rgb(114, 99, 79);
+    background: url("https://st4.depositphotos.com/4376739/20147/v/1600/depositphotos_201476190-stock-illustration-big-data-visualization-graphic-abstract.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+form {
+    width: 30%;
+    margin: 0 auto;
+    padding: 10px;
+    border: 3px solid rgb(168, 156, 139);
+    border-radius: 6px;
+    background-color: rgb(127, 212, 167)
+}
+
+form * {
+    margin: 2px 0;
+}
+
+input {
+    width: 100%;
+    margin: 2px 0 6px 0;
+    padding-left: 4px; 
+}
+
+label {
+    padding-left: 4px; 
+}
+
+h2, a {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+input[type="submit"] {
+    margin: 10px auto;
+    margin-top: 20px;
+    width: 50%;
+}
+
+p {
+    width: 30%;
+    margin: 10px auto;
+    padding: 4px 0;
+    text-align: center;
+    /* border: 2px solid rgb(214, 53, 53); */
+}
